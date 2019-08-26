@@ -12,9 +12,11 @@ export default function Message() {
         <p>Compete with the best in the northeast.</p>
         <p>Respectfully,</p>
         <p>GM Joe Parker</p>
-        <div className="flyer">
-          Download Flyer
-        </div>
+        <a href={require('../assets/flyer.jpg')} target="_blank">
+          <div className="flyer">
+            Download Flyer
+          </div>
+        </a>
       </div>
     </div>
   )
