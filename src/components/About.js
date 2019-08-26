@@ -23,21 +23,21 @@ export default function About() {
       </div>
       <div className="about-styles">
           <div className="style-icon">
-            <img src={require('../assets/knife-vs-stick.jpg')} />
+            <img src={require('../assets/padded-fighter.svg')} />
             <div>padded sticks</div>
           </div>
           <div className="style-icon">
-            <img src={require('../assets/knife-vs-stick.jpg')} />
+            <img src={require('../assets/knives.svg')} class="icon" />
             <div>knife fighting</div>
           </div>
       </div>
       <div className="about-styles">
           <div className="style-icon">
-            <img src={require('../assets/knife-vs-stick.jpg')} />
+            <img src={require('../assets/forms.svg')} />
             <div>forms</div>
           </div>
           <div className="style-icon">
-            <img src={require('../assets/knife-vs-stick.jpg')} />
+            <img src={require('../assets/toya.svg')} />
             <div>single & double sticks</div>
           </div>
         </div>
