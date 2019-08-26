@@ -18,6 +18,10 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.nav-bg {
+  background-color: white;
+}
+
 .logo {
   width: 200px;
   height: auto;

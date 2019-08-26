@@ -1,9 +1,29 @@
 import React from 'react';
 
 export default function Nav() {
+
+  const app = document.body
+
+  function setNavStyle() {
+    const scrollPercent = window.scrollY / 1000
+    const nav = document.querySelector(".navbar")
+    const logo = document.querySelector(".logo")
+    if (scrollPercent >= .75) {
+      nav.style.backgroundColor = 'rgba(255,255,255,1)';
+      nav.style.boxShadow = '0px 0px 21px 0px rgba(10,10,10,.25)';
+    } else {
+      nav.style.backgroundColor = `rgba(255,255,255,${scrollPercent})`;
+      nav.style.boxShadow = `0px 0px 21px 0px rgba(10,10,10,${scrollPercent})`;
+    }
+  }
+
+  app.onscroll = () => {
+    setNavStyle()
+  }
+
   return (
     <nav className="navbar">
-        <img src={require('../assets/logo.png')} className="logo" />
+        <img src={require('../assets/logo-transparent.png')} className="logo" />
         <div
           className="nav-brand"
           onClick={() => {
