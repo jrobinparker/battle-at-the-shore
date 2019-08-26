@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
-
+import Message from './components/Message';
 import './App.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Nav />
       <Home />
+      <Message />
     </div>
   );
 }
