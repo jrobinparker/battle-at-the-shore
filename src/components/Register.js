@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Register() {
   return (
-    <div className="register">
+    <div className="register" id="register">
       <h1>Register for Battle at the Shore 2020</h1>
       <div className="register-select">
         <div className="register-info">
