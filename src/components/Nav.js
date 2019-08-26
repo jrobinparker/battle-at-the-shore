@@ -48,7 +48,13 @@ export default function Nav() {
             }}>
               Registration
           </div>
-          <div className="nav-link">Contact</div>
+          <div
+            className="nav-link"
+            onClick={() => {
+              document.getElementById('contact').scrollIntoView({behavior: 'smooth'})
+            }}>
+              Contact
+          </div>
         </div>
     </nav>
   )

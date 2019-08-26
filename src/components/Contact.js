@@ -17,15 +17,16 @@ class Contact extends React.Component {
     }
 
   return (
-    <VisibilitySensor
-      PartialVisibility
-      onChange={isVisible => {
-        this.setState({
-          visible: isVisible
-        })
-      }}>
+
     <div className="contact" id="contact">
       <h1 className="contact-header">Contact Us</h1>
+      <VisibilitySensor
+        PartialVisibility
+        onChange={isVisible => {
+          this.setState({
+            visible: isVisible
+          })
+        }}>
       <div className="contact-info">
         <div className="address-container">
           <div className="address hidden">
@@ -50,8 +51,9 @@ class Contact extends React.Component {
           <img src={require('../assets/contact.jpg')} />
         </div>
       </div>
+      </VisibilitySensor>
+
       </div>
-    </VisibilitySensor>
   )
   }
 }
