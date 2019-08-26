@@ -257,6 +257,7 @@ body {
   flex-direction: column;
   text-align: center;
   padding-top: 5%;
+  margin-bottom: -10%;
 }
 
 .register-select {
@@ -319,4 +320,61 @@ input {
   font-family: 'Fjalla One', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 3.5%;
+}
+
+/* contact */
+
+.contact {
+  height: 70vh;
+  width: 100vw;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-info {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-img {
+  width: 50%;
+  height: 100%;
+}
+
+.contact-img img {
+  height: 100%;
+}
+
+.address-container {
+  width: 50%;
+  height: 100%;
+  background-color: #4A4843;
+  color: white;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 15%;
+}
+
+.contact-social {
+  margin-top: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-social img {
+  height: 65px;
+  width: auto;
 }
