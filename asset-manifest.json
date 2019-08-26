@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/battle-at-the-shore/static/css/main.3059ba04.chunk.css",
+    "main.js": "/battle-at-the-shore/static/js/main.69e42ab0.chunk.js",
+    "main.js.map": "/battle-at-the-shore/static/js/main.69e42ab0.chunk.js.map",
+    "runtime~main.js": "/battle-at-the-shore/static/js/runtime~main.720831c9.js",
+    "runtime~main.js.map": "/battle-at-the-shore/static/js/runtime~main.720831c9.js.map",
+    "static/js/2.6c105a5f.chunk.js": "/battle-at-the-shore/static/js/2.6c105a5f.chunk.js",
+    "static/js/2.6c105a5f.chunk.js.map": "/battle-at-the-shore/static/js/2.6c105a5f.chunk.js.map",
+    "index.html": "/battle-at-the-shore/index.html",
+    "precache-manifest.f6fea33412dec32581e0a73f0000f9f3.js": "/battle-at-the-shore/precache-manifest.f6fea33412dec32581e0a73f0000f9f3.js",
+    "service-worker.js": "/battle-at-the-shore/service-worker.js",
+    "static/css/main.3059ba04.chunk.css.map": "/battle-at-the-shore/static/css/main.3059ba04.chunk.css.map",
+    "static/media/App.css": "/battle-at-the-shore/static/media/bats-banner-1.7cf15d9c.gif",
+    "static/media/contact.jpg": "/battle-at-the-shore/static/media/contact.e7651565.jpg",
+    "static/media/facebook.svg": "/battle-at-the-shore/static/media/facebook.c509a4c4.svg",
+    "static/media/fight.jpg": "/battle-at-the-shore/static/media/fight.c1d0ef71.jpg",
+    "static/media/flyer.jpg": "/battle-at-the-shore/static/media/flyer.aa4ea082.jpg",
+    "static/media/forms.svg": "/battle-at-the-shore/static/media/forms.28757da1.svg",
+    "static/media/instagram.svg": "/battle-at-the-shore/static/media/instagram.15bc5470.svg",
+    "static/media/knives.svg": "/battle-at-the-shore/static/media/knives.4c8aa49f.svg",
+    "static/media/logo-transparent.png": "/battle-at-the-shore/static/media/logo-transparent.bc3a2de4.png",
+    "static/media/padded-fighter.svg": "/battle-at-the-shore/static/media/padded-fighter.e1e7bd85.svg",
+    "static/media/sensei-img.jpg": "/battle-at-the-shore/static/media/sensei-img.01ac5539.jpg",
+    "static/media/toya.svg": "/battle-at-the-shore/static/media/toya.aad787b5.svg",
+    "static/media/youtube.svg": "/battle-at-the-shore/static/media/youtube.a51ab7ed.svg"
+  }
+}
