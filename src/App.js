@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import Message from './components/Message';
 import About from './components/About';
+import Register from './components/Register';
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Message />
       <About />
+      <Register />
     </div>
   );
 }
