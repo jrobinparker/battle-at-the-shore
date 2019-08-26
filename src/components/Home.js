@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="landing" id="home">
       <div className="hero-banner">
+        <div className="banner-bg">
         <div className="banner-text">
           <h1 className="title">Battle at the Shore</h1>
           <h2 className="subtitle">Eskrima Invitational</h2>
@@ -23,8 +24,9 @@ export default function Home() {
                 Register
             </div>
           </div>
+          </div>
         </div>
-      </div>
+        </div>
     </div>
   )
 }
