@@ -12,6 +12,10 @@ export default function Nav() {
       nav.style.backgroundColor = 'rgba(255,255,255,1)';
       nav.style.boxShadow = '0px 0px 21px 0px rgba(10,10,10,.25)';
       nav.style.color = 'black'
+    } else if (scrollPercent >= .5 ){
+      nav.style.backgroundColor = `rgba(255,255,255,${scrollPercent})`;
+      nav.style.boxShadow = `0px 0px 21px 0px rgba(10,10,10,${scrollPercent})`;
+      nav.style.color = 'black'
     } else {
       nav.style.backgroundColor = `rgba(255,255,255,${scrollPercent})`;
       nav.style.boxShadow = `0px 0px 21px 0px rgba(10,10,10,${scrollPercent})`;
