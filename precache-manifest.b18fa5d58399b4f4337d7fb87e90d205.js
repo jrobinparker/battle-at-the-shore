@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17677684f37e684638809a41b6e91c22",
+    "revision": "a7911627a150bcc3b9783fae7189077e",
     "url": "/battle-at-the-shore/index.html"
   },
   {
-    "revision": "a2bf9efaa5b29fc761e9",
-    "url": "/battle-at-the-shore/static/css/main.1cb4285d.chunk.css"
+    "revision": "1cd1a158ef1cf6eec446",
+    "url": "/battle-at-the-shore/static/css/main.5bca22ac.chunk.css"
   },
   {
-    "revision": "023737a8dd876d9f5f16",
-    "url": "/battle-at-the-shore/static/js/2.6c105a5f.chunk.js"
+    "revision": "2fab96afd3d2015b3fae",
+    "url": "/battle-at-the-shore/static/js/2.aa606d14.chunk.js"
   },
   {
-    "revision": "a2bf9efaa5b29fc761e9",
-    "url": "/battle-at-the-shore/static/js/main.8a33cf05.chunk.js"
+    "revision": "1cd1a158ef1cf6eec446",
+    "url": "/battle-at-the-shore/static/js/main.de697c01.chunk.js"
   },
   {
     "revision": "49a5cc910986387d08d6",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/battle-at-the-shore/static/media/forms.28757da1.svg"
   },
   {
+    "revision": "2adce2d07a3653ebb679bf16e638a428",
+    "url": "/battle-at-the-shore/static/media/greeting1.2adce2d0.JPG"
+  },
+  {
     "revision": "15bc5470aea6d2d05200dff45c14e92b",
     "url": "/battle-at-the-shore/static/media/instagram.15bc5470.svg"
   },
@@ -58,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1e7bd85108d3aaa71097f07cfe52938",
     "url": "/battle-at-the-shore/static/media/padded-fighter.e1e7bd85.svg"
-  },
-  {
-    "revision": "01ac5539b5b251a8a4fd980dc87fc27b",
-    "url": "/battle-at-the-shore/static/media/sensei-img.01ac5539.jpg"
   },
   {
     "revision": "aad787b5e303a86f29de84da84b4cc2b",
