@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "579718beb137aea8cf0db28887419895",
+    "revision": "eea09be9685b9e54ce80cd7797aef785",
     "url": "/battle-at-the-shore/index.html"
   },
   {
-    "revision": "2c460349925229dd2830",
-    "url": "/battle-at-the-shore/static/css/main.b8fa4d1f.chunk.css"
+    "revision": "02c5ead0ec4178132259",
+    "url": "/battle-at-the-shore/static/css/main.6f502e75.chunk.css"
   },
   {
     "revision": "2fab96afd3d2015b3fae",
     "url": "/battle-at-the-shore/static/js/2.aa606d14.chunk.js"
   },
   {
-    "revision": "2c460349925229dd2830",
+    "revision": "02c5ead0ec4178132259",
     "url": "/battle-at-the-shore/static/js/main.b1c95aae.chunk.js"
   },
   {
