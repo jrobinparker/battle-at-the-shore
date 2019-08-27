@@ -1,34 +1,14 @@
-import React from 'react'
-import VisibilitySensor from 'react-visibility-sensor';
+import React from 'react';
 
-class Register extends React.Component {
-    state = {
-      visible: false
-    }
-
-    render() {
-      if (this.state.visible) {
-        const regInfo = document.querySelector('.competitor');
-        const volInfo = document.querySelector('.volunteer');
-        regInfo.classList.remove('hidden');
-        regInfo.classList.add('fade-in-up');
-        volInfo.classList.remove('hidden');
-        volInfo.classList.add('fade-in-up');
-      }
+const Register = () => {
 
     return (
         <div className="register" id="register">
           <h1>Register for Battle at the Shore 2020</h1>
-          <VisibilitySensor
-            PartialVisibility
-            onChange={isVisible => {
-              this.setState({
-                visible: isVisible
-              })
-            }}>
+
           <div className="register-select">
             <div className="register-info">
-              <div className="competitor hidden">
+              <div className="competitor">
                 <h2>Competitor Registration</h2>
                 <h3>Registration opens May 2020</h3>
                 <p>Registration for one division costs $30</p>
@@ -39,7 +19,7 @@ class Register extends React.Component {
               </div>
             </div>
             <div className="register-info">
-              <div className="volunteer hidden">
+              <div className="volunteer">
                 <h2>Volunteer Registration</h2>
                 <h3>Registration opens May 2020</h3>
                 <p>No spectactor fee</p>
@@ -50,10 +30,8 @@ class Register extends React.Component {
               </div>
             </div>
           </div>
-          </VisibilitySensor>
         </div>
   )
-  }
 }
 
 export default Register

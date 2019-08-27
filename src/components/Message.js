@@ -4,7 +4,7 @@ export default function Message() {
   return (
     <div className="message">
       <div className="sensei-img">
-        <img src={require('../assets/sensei-img.jpg')} />
+        <img src={require('../assets/greeting1.JPG')} />
       </div>
       <div className="sensei-msg">
         <p>Greetings,</p>
