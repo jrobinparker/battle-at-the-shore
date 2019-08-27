@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7911627a150bcc3b9783fae7189077e",
+    "revision": "759226355131812aca015760db26d0c0",
     "url": "/battle-at-the-shore/index.html"
   },
   {
-    "revision": "1cd1a158ef1cf6eec446",
-    "url": "/battle-at-the-shore/static/css/main.5bca22ac.chunk.css"
+    "revision": "4346ef2f60c8fc83b02a",
+    "url": "/battle-at-the-shore/static/css/main.6ec305ad.chunk.css"
   },
   {
     "revision": "2fab96afd3d2015b3fae",
     "url": "/battle-at-the-shore/static/js/2.aa606d14.chunk.js"
   },
   {
-    "revision": "1cd1a158ef1cf6eec446",
-    "url": "/battle-at-the-shore/static/js/main.de697c01.chunk.js"
+    "revision": "4346ef2f60c8fc83b02a",
+    "url": "/battle-at-the-shore/static/js/main.b1c95aae.chunk.js"
   },
   {
     "revision": "49a5cc910986387d08d6",
@@ -45,7 +45,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "2adce2d07a3653ebb679bf16e638a428",
-    "url": "/battle-at-the-shore/static/media/greeting1.2adce2d0.JPG"
+    "url": "/battle-at-the-shore/static/media/greeting1.2adce2d0.jpg"
   },
   {
     "revision": "15bc5470aea6d2d05200dff45c14e92b",
