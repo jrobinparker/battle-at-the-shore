@@ -41,7 +41,7 @@ export default function Nav() {
           <div
             className="nav-link"
             onClick={() => {
-              document.getElementById('about').scrollIntoView({behavior: 'smooth'})
+              document.getElementById('message').scrollIntoView({behavior: 'smooth'})
             }}>
               Tournament Info
           </div>

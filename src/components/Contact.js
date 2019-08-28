@@ -33,7 +33,7 @@ const Contact = () => {
           <img src={require('../assets/contact.jpg')} />
         </div>
       </div>
-      </div>
+    </div>
   )
 }
 

@@ -12,7 +12,7 @@ export default function Home() {
             <div
               className="banner-button"
               onClick={() => {
-                document.getElementById('about').scrollIntoView({behavior: 'smooth'})
+                document.getElementById('message').scrollIntoView({behavior: 'smooth'})
               }}>
                 About
             </div>

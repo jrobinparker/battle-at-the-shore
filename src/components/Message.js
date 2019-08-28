@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Message() {
   return (
-    <div className="message">
+    <div className="message" id="message">
       <div className="sensei-img">
-        <img src={require('../assets/greeting1.JPG')} />
+        <img src={require('../assets/greeting1.jpg')} />
       </div>
       <div className="sensei-msg">
         <p>Greetings,</p>
