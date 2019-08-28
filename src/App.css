@@ -1835,8 +1835,8 @@ input {
   }
 }
 
-/* tablets and laptop screens - landscape mode */
-@media only screen and (orientation: landscape) and (min-width: 1200px) {
+/* tablets and small laptop screens - landscape mode */
+@media only screen and (orientation: landscape) and (min-width: 1110px) {
 
   .navbar {
     display: flex;
@@ -1846,7 +1846,7 @@ input {
 
   .hero-banner {
     position: relative;
-    top: -15%;
+    top: -5%;
     height: 108vh;
     background-position: center;
   }
@@ -2030,6 +2030,211 @@ input {
     flex-direction: column;
     text-align: center;
     padding-bottom: 2%;
+  }
+
+}
+
+
+/* tablets and laptop screens - landscape mode */
+@media only screen and (orientation: landscape) and (min-width: 1400px) {
+
+  .navbar {
+    display: flex;
+    font-size: 1.75rem;
+  }
+
+  /* hero image and banner text */
+
+  .hero-banner {
+    position: relative;
+    top: -1%;
+    height: 108vh;
+    background-position: center;
+  }
+
+  .banner-bg {
+    height: 108vh;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .banner-text {
+    position: relative;
+    left: 25%;
+    top: 35%;
+    font-size: 2rem;
+  }
+
+  .banner-button {
+    font-size: 2rem;
+  }
+
+  /* message */
+
+  .message {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5%;
+    width: 90vw;
+  }
+
+  .sensei-img {
+    width: 40%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .sensei-img img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+  }
+
+  .sensei-msg {
+    width: 95%;
+    font-size: 2.25rem;
+    text-align: center;
+  }
+
+  .flyer {
+    width: 100%;
+  }
+
+  /* about */
+
+  .about {
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 1%;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .about-info {
+    height: auto;
+  }
+
+  .about-styles {
+    display: flex;
+    position: relative;
+    left: -1%;
+    margin-top: 7%;
+  }
+
+  .about-styles:nth-of-type(2) {
+    position: relative;
+    left: -1%;
+  }
+
+  .style-icon {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .style-icon img {
+    width: 120px;
+    height: auto;
+  }
+
+  /* register */
+
+  .register {
+    height: 80vh;
+    margin-top: -2%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .register-select {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+  }
+
+  .register-info {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    padding-bottom: 10%;
+  }
+
+  .volunteer {
+    padding: 0 5% 0 5%;
+  }
+
+  button {
+    font-size: 2rem;
+  }
+
+  /* contact */
+
+  .contact {
+    height: 70vh;
+    width: 100vw;
+    margin-top: 10%;
+  }
+
+  .contact-header {
+    text-align: center;
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .contact-img img {
+    height: 100%;
+  }
+
+  .address {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5%;
+    font-size: 2rem;
+  }
+
+  .contact-social {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+  }
+
+  .contact-social img {
+    height: 100px;
+    width: auto;
+    position: relative;
+  }
+
+  .contact-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
   }
 
 }
