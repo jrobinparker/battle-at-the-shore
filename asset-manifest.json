@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/battle-at-the-shore/static/css/main.c6a1bc8e.chunk.css",
+    "main.css": "/battle-at-the-shore/static/css/main.799927ba.chunk.css",
     "main.js": "/battle-at-the-shore/static/js/main.76128567.chunk.js",
     "main.js.map": "/battle-at-the-shore/static/js/main.76128567.chunk.js.map",
     "runtime~main.js": "/battle-at-the-shore/static/js/runtime~main.720831c9.js",
@@ -8,9 +8,9 @@
     "static/js/2.aa606d14.chunk.js": "/battle-at-the-shore/static/js/2.aa606d14.chunk.js",
     "static/js/2.aa606d14.chunk.js.map": "/battle-at-the-shore/static/js/2.aa606d14.chunk.js.map",
     "index.html": "/battle-at-the-shore/index.html",
-    "precache-manifest.7088130d2ecc83c3ec7bd959e087e8fb.js": "/battle-at-the-shore/precache-manifest.7088130d2ecc83c3ec7bd959e087e8fb.js",
+    "precache-manifest.0a9d115be26245a144a1f2749f632d25.js": "/battle-at-the-shore/precache-manifest.0a9d115be26245a144a1f2749f632d25.js",
     "service-worker.js": "/battle-at-the-shore/service-worker.js",
-    "static/css/main.c6a1bc8e.chunk.css.map": "/battle-at-the-shore/static/css/main.c6a1bc8e.chunk.css.map",
+    "static/css/main.799927ba.chunk.css.map": "/battle-at-the-shore/static/css/main.799927ba.chunk.css.map",
     "static/media/App.css": "/battle-at-the-shore/static/media/bats-banner-1.7cf15d9c.gif",
     "static/media/contact.jpg": "/battle-at-the-shore/static/media/contact.e7651565.jpg",
     "static/media/facebook.svg": "/battle-at-the-shore/static/media/facebook.c509a4c4.svg",
