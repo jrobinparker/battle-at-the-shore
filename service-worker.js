@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/battle-at-the-shore/precache-manifest.36e869db60d973de75d21443fe8085a3.js"
+  "/battle-at-the-shore/precache-manifest.ca6d423497db7420df2c91d127ac40ae.js"
 );
 
 self.addEventListener('message', (event) => {
