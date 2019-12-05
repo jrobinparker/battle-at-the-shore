@@ -13,7 +13,7 @@ const Register = () => {
                 <h3>Registration opens May 2020</h3>
                 <p>Registration for one division costs $30</p>
                 <p>Each additional division costs $15</p>
-                <button className="reg-button" disabled>
+                <button className="reg-button" id="comp-button" disabled>
                   Register as a Competitor
                 </button>
               </div>

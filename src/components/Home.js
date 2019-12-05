@@ -6,6 +6,7 @@ export default function Home() {
       <div className="hero-banner">
         <div className="banner-bg">
         <div className="banner-text">
+          <img src={require('../assets/logo-transparent.png')} className="hero-img" />
           <h1 className="title">Battle at the Shore</h1>
           <h2 className="subtitle">Eskrima Invitational</h2>
           <div className="banner-buttons">
@@ -18,6 +19,7 @@ export default function Home() {
             </div>
             <div
               className="banner-button"
+              id="reg-button"
               onClick={() => {
                 document.getElementById('register').scrollIntoView({behavior: 'smooth'})
               }}>
