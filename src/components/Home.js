@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="landing" id="home">
       <div className="hero-banner">
         <div className="banner-bg">
         <div className="banner-text">
-          <img src={require('../assets/logo-transparent.png')} className="hero-img" />
+          <img src={require('../assets/logo-transparent.png')} className="hero-img" alt="sparring" />
           <h1 className="title">Battle at the Shore</h1>
           <h2 className="subtitle">Eskrima Invitational</h2>
           <div className="banner-buttons">
@@ -32,3 +32,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home;

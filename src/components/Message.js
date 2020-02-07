@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Message() {
+const Message = () => {
   return (
     <div className="message" id="message">
       <div className="message-content">
         <div className="sensei-img">
-          <img src={require('../assets/greeting1.jpg')} />
+          <img src={require('../assets/greeting1.jpg')} alt="students"/>
         </div>
         <div className="sensei-msg">
           <p>Greetings,</p>
@@ -13,7 +13,7 @@ export default function Message() {
           <p>Compete with the best in the northeast.</p>
           <p>Respectfully,</p>
           <p>GM Joe Parker</p>
-          <a href={require('../assets/flyer.jpg')} target="_blank">
+          <a href={require('../assets/flyer.jpg')} target="_blank" rel="noopener noreferrer">
             <div className="flyer">
               Download Flyer
             </div>
@@ -23,3 +23,5 @@ export default function Message() {
     </div>
   )
 }
+
+export default Message;

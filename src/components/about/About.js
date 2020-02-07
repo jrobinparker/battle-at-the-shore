@@ -1,4 +1,5 @@
 import React from 'react';
+import StyleIcon from './StyleIcon';
 import VisibilitySensor from 'react-visibility-sensor';
 
 class About extends React.Component {
@@ -25,29 +26,16 @@ class About extends React.Component {
       }}>
     <div className="about" id="about">
       <div className="about-img">
-        <img src={require('../assets/fight.jpg')} />
+        <img src={require('../../assets/fight.jpg')} alt="fight" />
       </div>
       <div className="about-info">
-
       <div className="about-styles hidden">
-          <div className="style-icon">
-            <img src={require('../assets/padded-fighter.svg')} />
-            <div>padded sticks</div>
-          </div>
-          <div className="style-icon">
-            <img src={require('../assets/knives.svg')} />
-            <div>knife fighting</div>
-          </div>
+        <StyleIcon imgSrc={'padded-fighter.svg'} styleName={'padded sticks'} />
+        <StyleIcon imgSrc={'knives.svg'} styleName={'knife fighting'} />
       </div>
       <div className="about-styles hidden">
-          <div className="style-icon">
-            <img src={require('../assets/forms.svg')} />
-            <div>forms</div>
-          </div>
-          <div className="style-icon">
-            <img src={require('../assets/toya.svg')} />
-            <div className="portrait-size">single & double sticks</div>
-          </div>
+        <StyleIcon imgSrc={'forms.svg'} styleName={'forms'} />
+        <StyleIcon imgSrc={'toya.svg'} styleName={'single & double sticks'} />
       </div>
 
       </div>
@@ -57,4 +45,4 @@ class About extends React.Component {
   }
 }
 
-export default About
+export default About;
